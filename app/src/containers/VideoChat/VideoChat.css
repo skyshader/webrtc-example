@@ -1,0 +1,18 @@
+.VideoCallContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+}
+
+.VideoStreams-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.VideoStreams-holder {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

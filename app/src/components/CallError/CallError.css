@@ -1,0 +1,10 @@
+.CallError-container {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3), 0 4px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}

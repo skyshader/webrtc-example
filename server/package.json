@@ -1,0 +1,34 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "Chat server for NuggetLive",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "firebase-admin": "^4.0.4",
+    "lodash": "^4.17.2",
+    "request": "^2.79.0",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajitsen/live-nugget-server/chat-server"
+  },
+  "keywords": [
+    "chat",
+    "server",
+    "nuggets",
+    "signaling"
+  ],
+  "author": "Toko Studios Pvt. Ltd.",
+  "license": "ISC"
+}

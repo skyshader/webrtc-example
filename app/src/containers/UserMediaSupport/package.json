@@ -1,0 +1,6 @@
+{
+  "name": "UserMediaSupport",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./UserMediaSupport.js"
+}

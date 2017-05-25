@@ -1,0 +1,6 @@
+{
+  "name": "UserMediaAccess",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./UserMediaAccess.js"
+}

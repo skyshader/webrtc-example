@@ -1,0 +1,6 @@
+{
+  "name": "ScreenShareButton",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ScreenShareButton.js"
+}

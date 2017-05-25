@@ -1,0 +1,35 @@
+.ScreenShare-button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+  transition: all 0.3s ease;
+}
+
+
+.ScreenShare-button.startScreenShareButton {
+  background-color: #208ce9;
+}
+
+.ScreenShare-button.startScreenShareButton:hover {
+  background-color: #00B0E9;
+}
+
+.ScreenShare-button.endScreenShareButton {
+  background-color: #e96629;
+}
+
+.ScreenShare-button.endScreenShareButton:hover {
+  background-color: #e9441c;
+}
+
+
+.ScreenShare-button:disabled, .ScreenShare-button:disabled:hover {
+  background-color: #dbdbdb;
+  color: #333;
+  cursor: default;
+  box-shadow: none;
+}

@@ -1,0 +1,30 @@
+.VideoStream {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.VideoStream.nonFocused {
+  width: 178px;
+  height: 100px;
+  top: 15px;
+  right: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.VideoStream.focused {
+  top: 0;
+  left: 0;
+}
+
+.streamingVideo {
+  width: 100%;
+  height: 100%;
+  transform: scaleX(-1);
+  object-fit: cover;
+  object-position: center;
+}

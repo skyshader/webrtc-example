@@ -1,0 +1,6 @@
+{
+  "name": "StartCall",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./StartCall.js"
+}

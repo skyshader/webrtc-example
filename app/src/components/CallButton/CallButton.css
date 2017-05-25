@@ -1,0 +1,33 @@
+.Call-button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+  transition: all 0.3s ease;
+}
+
+.Call-button.startCallButton {
+  background-color: #208ce9;
+}
+
+.Call-button.startCallButton:hover {
+  background-color: #00B0E9;
+}
+
+.Call-button.endCallButton {
+  background-color: #e96629;
+}
+
+.Call-button.endCallButton:hover {
+  background-color: #e9441c;
+}
+
+.Call-button:disabled, .Call-button:disabled:hover {
+  background-color: #dbdbdb;
+  color: #333;
+  cursor: default;
+  box-shadow: none;
+}

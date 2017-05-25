@@ -1,0 +1,22 @@
+.VideoCallControls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 80px;
+  padding: 30px;
+  background: transparent;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.VideoCallControls.shadowed {
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  border-top: none;
+  box-shadow: none;
+}
+
+.Control-button {
+  display: inline-block;
+  padding: 10px;
+  box-sizing: border-box;
+}
